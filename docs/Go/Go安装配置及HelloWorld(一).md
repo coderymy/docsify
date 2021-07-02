@@ -37,3 +37,10 @@ GOPATH是go项目的工作目录,这个也类似eclipse中的workspace的概念,
    ```
 3. 执行,使用`go run test.go`执行即可
 
+注意,这个程序是有一定特殊性的
+首先第一行的`package main`中的main表示是基于main包,main包是程序的入口包
+其次,第三行的`func main(){}`中的main是入口函数.所以才可直接执行
+
+这里也可以进行编译生成exe包进行执行
+1. `go build test.go`
+2. `./test.exe`
