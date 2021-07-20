@@ -7,6 +7,11 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- 侧边栏箭头样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <!-- 侧边栏文件夹样式 -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
+
 </head>
 <body>
   <div id="app"></div>
@@ -18,7 +23,17 @@
       alias: {
          '/.*/_sidebar.md': '/_sidebar.md'
       },
-      subMaxLevel: 3
+      subMaxLevel: 3,
+      //sidebarDisplayLevel: 1, // set sidebar display level
+      search: {
+        noData: {
+          '/': '没有结果!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索'
+        }
+      }
     }
   </script>
   <style type="text/css">

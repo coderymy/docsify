@@ -81,3 +81,40 @@ aaa :=new (string)
 fmt.Println(*str)
 
 ```
+
+
+
+# 指针的使用场景
+
+1. 直接对指针指向的地址操作,可以最完全的改变这个参数的值信息,所以可以用在方法的传递上,直接方法的入参传入一个参数的指针类型,这个参数在这个方法中的修改.会导致调用方也修改
+	所以一般函数的参数列表都是以`*xxx`来做为参数传递的
+
+
+```go
+package main
+
+import (
+	"errors"
+	"fmt"
+)
+
+func testMap(strs *[]string) (bool, error) {
+
+	for _, str := range *strs {
+
+		fmt.Println(str)
+	}
+	*strs = append(*strs, "小黑")
+	return true, errors.New("没有错误结果信息")
+
+}
+
+func main() {
+	strs := []string{"小白", "小红", "小蓝"}
+	b, err := testMap(&strs)
+
+	fmt.Printf("", b, err)
+	fmt.Printf("", strs)
+}
+
+```
