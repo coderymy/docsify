@@ -12,6 +12,12 @@
   - [1. 基础数据结构](Data%20structures%20and%20algorithms/1.%20基础数据结构.md)  
   - [2. 基础算法](Data%20structures%20and%20algorithms/2.%20基础算法.md)  
   - [3. 排序算法之美](Data%20structures%20and%20algorithms/3.%20排序算法之美.md)  
+  - [4. 查找算法之美](Data%20structures%20and%20algorithms/4.%20查找算法之美.md)  
+  - [5. 数据结构——散列表](Data%20structures%20and%20algorithms/5.%20数据结构——散列表.md)  
+  - [6. 散列表与链表的各种实现](Data%20structures%20and%20algorithms/6.%20散列表与链表的各种实现.md)  
+  - [7. 树](Data%20structures%20and%20algorithms/7.%20树.md)  
+  - [8. 一头扎进红黑树](Data%20structures%20and%20algorithms/8.%20一头扎进红黑树.md)  
+  - [interview](Data%20structures%20and%20algorithms/interview.md)  
 
 - [Docker]()  
   - [3. Docker基本使用]()  
@@ -84,4 +90,5 @@
 
 
 - [README](README.md)  
+- [SpringBoot+Shiro+jwt实现认证及鉴权](SpringBoot+Shiro+jwt实现认证及鉴权.md)  
 
