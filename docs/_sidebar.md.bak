@@ -51,7 +51,7 @@
   - [compose](/Docker/compose.md)
   - [实现多个镜像互联使用](/Docker/实现多个镜像互联使用.md)
 * Go
-  - [GoMod的基本使用](/Go/GoMod的基本使用.md)
+  - [Go mod的基本使用](/Go/Go mod的基本使用.md)
   - [Go安装配置及HelloWorld(一)](/Go/Go安装配置及HelloWorld(一).md)
   - [Go语言基础语法---函数(六)](/Go/Go语言基础语法---函数(六).md)
   - [Go语言基础语法---变量(二)](/Go/Go语言基础语法---变量(二).md)
@@ -63,6 +63,7 @@
   * gorm
   * kataras
   - [其他](/Go/其他.md)
+- [Linux基础命令](/Linux基础命令.md)
 * MQ
   * 4.rocketMQ
     - [1.rocketMQ概述](/MQ/4.rocketMQ/1.rocketMQ概述.md)
@@ -71,11 +72,13 @@
     - [1.安装erlang](/MQ/6.rabbitMQ/1.安装erlang.md)
     - [2.安装rabbitMQ](/MQ/6.rabbitMQ/2.安装rabbitMQ.md)
 * Mysql
+  - [Mysql的事务](/Mysql/Mysql的事务.md)
   - [Mysql的索引详解](/Mysql/Mysql的索引详解.md)
   - [Mysql的锁机制](/Mysql/Mysql的锁机制.md)
   - [Sql中的高级函数用法](/Mysql/Sql中的高级函数用法.md)
   - [mysql的redolog、undolog、binlog](/Mysql/mysql的redolog、undolog、binlog.md)
-
+- [SpringBoot+Shiro+jwt实现认证及鉴权](/SpringBoot+Shiro+jwt实现认证及鉴权.md)
+- [ansible基本概念及模块信息](/ansible基本概念及模块信息.md)
 * elasticSearch
   - [1.elasticSearch概念及介绍](/elasticSearch/1.elasticSearch概念及介绍.md)
   - [2.安装及确认](/elasticSearch/2.安装及确认.md)
@@ -94,6 +97,3 @@
   - [List的stream对象](/java/List的stream对象.md)
 * kubernetes
   - [1.kubernetes的简介](/kubernetes/1.kubernetes的简介.md)
-- [Linux基础命令](/Linux基础命令.md)
-- [SpringBoot+Shiro+jwt实现认证及鉴权](/SpringBoot+Shiro+jwt实现认证及鉴权.md)
-- [ansible基本概念及模块信息](/ansible基本概念及模块信息.md)
